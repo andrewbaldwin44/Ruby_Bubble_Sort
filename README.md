@@ -1,4 +1,4 @@
-# Buble_Sort
+# Bubble_Sort
 > Exercise for the Odin Project to create a bubble sort algorithm
 
 [View Demo](https://repl.it/@andrewbaldwin44/BubbleSort)
