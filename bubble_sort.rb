@@ -27,10 +27,13 @@ class Sort
   end
 end
 
-p Sort.bubble_sort([2, 5, 1, 20, 15, 7])
-p Sort.bubble_sort(["apples", "oranges", "xyplophone", "zebra", "cats"])
+print Sort.bubble_sort([2, 5, 1, 20, 15, 7])
+puts
+print Sort.bubble_sort(["apples", "oranges", "xyplophone", "zebra", "cats"])
+puts
 
 large_array = (0..999).to_a.sample(99)
-p Sort.bubble_sort(large_array)
+print Sort.bubble_sort(large_array)
+puts
 
-p Sort.bubble_sort_by(["hi","hello","hey"]) { |left, right| left.length - right.length}
+print Sort.bubble_sort_by(["hi","hello","hey"]) { |left, right| left.length - right.length}
