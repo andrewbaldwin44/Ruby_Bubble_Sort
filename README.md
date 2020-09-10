@@ -16,9 +16,9 @@ In this algorithm, each element is compared to the one next to it and they are s
   <img src='./images/bubble_sort.gif' alt='Bubble Sorting' />
 </div><br>
 
-## Requirements
+## Dependecies
 
-- Ruby >= 2.6
+- Ruby 2.6.5 (or higher)
 
 ## Run the Project
 
